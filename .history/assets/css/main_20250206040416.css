@@ -1740,7 +1740,7 @@ section,
 # others
 --------------------------------------------------------------*/
 
-.wamba-accordion {
+.mtii-accordion {
   background-color: #222020;
   color: #fff;
   cursor: pointer;
@@ -1755,18 +1755,18 @@ section,
   
 }
 
-.wamba-accordion:hover {
+.mtii-accordion:hover {
   background-color: #f19407;
 }
 
-.wamba-panel {
+.mtii-panel {
   padding: 0 18px;
   background-color: white;
   display: none;
   overflow: hidden;
   }
 
-.wamba-accordion:after {
+.mtii-accordion:after {
   content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: white;
@@ -1774,13 +1774,13 @@ section,
   margin-left: 5px;
 }
 
-.wamba-accordion .active:after {
+.mtii-accordion .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 .elhanan {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   text-align: justify;
 }
 
