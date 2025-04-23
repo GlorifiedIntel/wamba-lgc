@@ -1646,47 +1646,8 @@ th {
 }
 
 /*-------------------------------------
-# Past Leadership
+# more CSS
 -------------------------------------*/
-/* Style tab links */
-.tablink {
-  background-color: #1c2833;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
-
-.tablink:hover {
-  background-color: #6d9e55;
-}
-
-.tablink:active {
-  background-color: orange;
-}
-
-/* Style the tab content (and add height:100% for full page content) */
-.tabcontent {
-  color: #444;
-  display: none;
-  padding: 100px 20px;
-  height: 100%;
-}
-
-#Trade {background-color: white;}
-#Application {background-color: white;}
-#Business {background-color: white;}
-#Investment {background-color: white;}
-
-#Commissioners {background-color: white;}
-#Permsects {background-color: white;}
-#Directors {background-color: white;}
-
-
 .card-title {
   font-size: 20px;
   font-weight: 700;
@@ -1705,4 +1666,59 @@ th {
 .chairman-2 {
   font-weight: bold;
   color: #555;
+}
+
+.wamba-container {
+  background-color: #2D3047;
+  padding: 30px;
+  color: #fff;
+}
+
+.service-card {
+  transition: all 0.3s ease;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  background: linear-gradient(145deg, #ffffff, #f3f3f3);
+  
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  
+}
+
+.icon-wrapper {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+}
+
+.custom-badge {
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.service-title {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.service-text {
+  color: #718096;
+  font-size: 0.95rem;
+}
+
+body {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding: 40px 0;
 }
