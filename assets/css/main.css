@@ -1722,3 +1722,25 @@ body {
   min-height: 100vh;
   padding: 40px 0;
 }
+
+
+.wamba-vertical-menu {
+  width: 250px;
+}
+
+.wamba-vertical-menu a {
+  background-color: #eee; 
+  color: black; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none; 
+}
+
+.wamba-vertical-menu a:hover {
+  background-color: #ccc; 
+}
+
+.wamba-vertical-menu a.active {
+  background-color: #04AA6D; 
+  color: white;
+}
